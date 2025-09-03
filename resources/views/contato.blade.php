@@ -76,7 +76,8 @@
     <p>Entre em contato conosco para fazer pedidos, tirar dúvidas ou enviar sugestões. 
        Será um prazer atender você!</p>
 
-    <form>
+    <form method="POST">
+        @csrf
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
 
