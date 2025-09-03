@@ -14,6 +14,10 @@ class PrincipalController extends Controller
         return view('sobre-nos');
     }
 
+    public function contato(){
+        return view('contato');
+    }
+
 }
 
 
